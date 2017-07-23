@@ -63,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
         };
         countDownTimer.start();
     }
+    
     private void start2() {
         countDownTimer = new CountDownTimer(120 * 60 * 1000, 1000) {
             public void onTick(long millisUntilFinished) {
